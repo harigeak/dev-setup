@@ -5,5 +5,5 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
-CMD ["python", "-c", "import time; print('container started'); time.sleep(3800)"]
+CMD ["python", "-c", "import time; print('container started'); time.sleep(3600)"]
 # CMD ["python", "-m", "your_app"]
